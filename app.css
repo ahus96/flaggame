@@ -1,0 +1,41 @@
+.d-flex {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.flagimage {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-body {
+    text-align: center;
+}
+
+.hero.is-link .title {
+    color: #000;
+    font-size: 0.5rem;
+}
+
+body {
+
+    height: 400rem;
+    background-color: #495fc1;
+}
+
+.hero.is-link .subtitle {
+
+    color: rgb(255 255 255 / 90%);
+    font-family: monospace;
+    font-size: x-large;
+}

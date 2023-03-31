@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flag Game</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://unpkg.com/canvas-confetti@1.5.1/dist/confetti.browser.js"></script>
+    <link rel="stylesheet" href="app.css">
+
+
+
+
+</head>
+
+<body>
+
+    <section class="hero is-link">
+        <div class="hero-body">
+            <p class="subtitle">
+                The Flag Game </p>
+            <p class="subtitle">
+                How many flags can you guess correctly in 30 seconds?</p>
+        </div>
+
+
+    </section>
+    <div id="dflex" class="d-flex p-2">
+        <div class="card" style="width: 18rem;">
+
+            <div class="card-body ">
+                <div id="flagimage" class="card-img-top"></div>
+                <div id="div"> </div>
+                <label class="title is-1" value="0" for="" id="score">0</label>
+                <input id="country" type="Enter country">
+                <div>
+                    <button type="button" class="btn btn-outline-primary" id="Play">Start</button>
+                    <button type="button" class="btn btn-outline-secondary" id="Next">Next</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <label id="some_div">
+    </label>
+
+
+    <script src="app.js"></script>
+
+
+
+
+</body>
+
+</html>
